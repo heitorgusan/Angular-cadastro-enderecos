@@ -1,0 +1,16 @@
+<section class="container text">
+  <h1 class="display-1 text-center">Cadastro de Cidade</h1>
+
+  <form class="d-flex flex-column align-items-center" (ngSubmit)="buscarCEP(cepInput.value)">
+    <div class="mb-3 form-group w-25">
+      <label class="form-label text-light" for="cep">CEP</label>
+      <input type="text" class="form-control fs-5 h-25" name="cep" id="cep" #cepInput placeholder="Buscar CEP"/>
+    </div>
+    <div class="d-flex border">
+      <input type="text" class="form-control w-50 h-25" name="logradouro" readonly [ngModel]="logradouro" placeholder="Logradouro"/>
+      <input type="text" class="form-control w-25 h-25" name="cidade" readonly [ngModel]="cidade" placeholder="Cidade"/>
+      <input type="text" class="form-control w-25 h-25" name="estado" readonly [ngModel]="estado" placeholder="Estado"/>
+    </div>
+    <button type="submit" class="btn btn-dark mt-3">Buscar Cidade</button>
+  </form>
+</section>

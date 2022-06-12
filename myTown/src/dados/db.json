@@ -1,0 +1,32 @@
+{
+  "cadastros": [
+    {
+      "id": "1",
+      "cep": "03379030",
+      "logradouro": "Rua Joaquim Mendes do Prado",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "id": "2",
+      "cep": "03379030",
+      "logradouro": "Rua Joaquim Mendes do Prado",
+      "cidade": "São Paulo",
+      "estado": "SP"
+    },
+    {
+      "cep": "03379-030",
+      "logradouro": "Rua Joaquim Mendes do Prado",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "id": "lUzDTMy"
+    },
+    {
+      "cep": "03380-030",
+      "logradouro": "Rua Fortunato Nolla",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "id": "64JCs4T"
+    }
+  ]
+}

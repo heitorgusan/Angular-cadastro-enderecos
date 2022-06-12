@@ -1,0 +1,19 @@
+<table class = "container">
+  <thead>
+    <th>CEP</th>
+    <th>Logradouro</th>
+    <th>Cidade</th>
+    <th>Estado</th>
+  </thead>
+  <tbody *ngIf = "listaCadastro.length > 0 ; else listaVazia">
+    <tr *ngFor="let item of listaCadastro">
+      <td>{{item.cep}}</td>
+      <td>{{item.logradouro}}</td>
+      <td>{{item.cidade}}</td>
+      <td>{{item.estado}}</td>
+    </tr>
+  </tbody>
+</table>
+<ng-template #listaVazia>
+  <p>Nenhuma cidade cadastrada</p>
+</ng-template>
